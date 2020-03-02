@@ -1,0 +1,19 @@
+<html>
+<head>
+<center>
+<title>Button changing text</title>
+<script>
+ function mybtn()
+   {
+    var elem = document.getElementById("btnmagic");
+      if (elem.value=="Hello") {elem.value = "WellDone";}
+      else {elem.value = "Hello";}
+   }
+</script>
+<head>
+<body>
+ <input type="text" value="Hello" id="btnmagic">
+ <button class="mybtn" onclick="mybtn()" ><b>Press</b></button>
+</center>
+</body>
+</html>
